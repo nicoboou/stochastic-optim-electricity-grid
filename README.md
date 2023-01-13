@@ -14,16 +14,14 @@ Thus, we see a natural two-stage progression of the decisions being undertaken.
 
 ## Problem formulation
 
-1. Two-stage SP model formulation: Formulate the power generation planning problem
+1. **_Two-stage SP model formulation_**: Formulate the power generation planning problem
    as a two-stage stochastic linear programming model.
-2. Model implementation and solution: With the given dataset, solve your model em-
-   ploying either the Benders L-Shaped method or the Progressive Hedging algorithm.
-   Report the purchased generation capacity and the total expected cost (investment +
+2. **_Model implementation and solution_**: With the given dataset, solve your model employing either the Benders L-Shaped method or the Progressive Hedging algorithm. Report the purchased generation capacity and the total expected cost (investment +
    production).
-3. Risk-averse formulation: Formulate the problem as a two-stage stochastic linear pro-
+3. **_Risk-averse formulation:_** Formulate the problem as a two-stage stochastic linear pro-
    gramming model with risk-averse measure CVaRα, instead of using the expected gen-
    eration cost, in the objective function.
-4. Risk-averse model implementation and solution: With the given dataset, solve your
+4. **_Risk-averse model implementation and solution:_** With the given dataset, solve your
    risk-averse model with different confidence levels α employing the decomposition algo-
    rithm you developed in task 2.
 
